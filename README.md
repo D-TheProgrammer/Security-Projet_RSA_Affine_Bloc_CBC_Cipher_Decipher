@@ -97,7 +97,7 @@ The program includes the following steps:
   <img width="267" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Cipher_Decipher/assets/151149998/da6affdc-15cd-42ae-b13d-22376a908413">
 </div>
 
-#### ÉTAPE 2 : Dans la partie 2 Affine lancer le programme   / STEP 2: In part 2 Affineafter launch the program
+#### ÉTAPE 2 : Dans la partie 2 Affine lancer le programme   / STEP 2: In part 2 Affine after launch the program
 [FRENCH] L'utilisateur pourra choisir la clé privé et publique ( la clé privé ne peut etre le chiffre 0)   
 [ENGLISH] The user can choose the private and public key (the private key cannot be the number 0)  
 <div align="center">
