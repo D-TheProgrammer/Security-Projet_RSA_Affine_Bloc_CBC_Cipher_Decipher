@@ -1,6 +1,6 @@
-# Security-Projet_RSA_Affine_Bloc_Cipher_Decipher
-[French] Projet de Chiffrement-Déchiffrement RSA et Affine et bloc    
-[English] RSA, Affine, Bloc Encryption-Decryption Project  (First it will be the French README then the English README After)   
+# Security-Projet_RSA_Affine_Bloc_CBC_Cipher_Decipher
+[French] Projet de Chiffrement-Déchiffrement RSA et Affine et bloc CBC
+[English] RSA, Affine, Bloc CBC Encryption-Decryption Project  (First it will be the French README then the English README After)   
 
 
 #### SOMMAIRE / SUMMARY
