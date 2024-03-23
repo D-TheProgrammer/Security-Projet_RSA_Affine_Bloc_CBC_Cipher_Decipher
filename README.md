@@ -1,6 +1,6 @@
-# Security-Projet_RSA_Affine_Cipher_Decipher
-[French] Projet de Chiffrement-Déchiffrement RSA et Affine     
-[English] RSA and Affine Encryption-Decryption Project  (First it will be the French README then the English README After)   
+# Security-Projet_RSA_Affine_Bloc_Cipher_Decipher
+[French] Projet de Chiffrement-Déchiffrement RSA et Affine et bloc    
+[English] RSA, Affine, Bloc Encryption-Decryption Project  (First it will be the French README then the English README After)   
 
 
 #### SOMMAIRE / SUMMARY
@@ -49,6 +49,20 @@ Le programme comprend les étapes suivantes :
 > python3 prog_chiffrement_dechiffrement_affine.py
 > ````
 
+
+### Partie 3 : Chiffrement-Déchiffrement par Bloc avec ToyCipher et avec CBC 
+
+Implémentation d'un chiffrement par bloc à deux tours appelé ToyCipher avec une clé de 8 bits et une taille de bloc de 4 bits. Il contient des fonctions pour le chiffrement et le déchiffrement de données, ainsi que des opérations sur des fichiers, le chiffrement se fait en deux tours d'opérations sur les données. Chaque tour comprend l'ajout de la clé correspondante à l'état des données, suivi d'une permutation. Le déchiffrement, quant à lui, inverse ce processus en effectuant les tours dans l'ordre inverse, en commençant par les opérations inverses de la permutation, suivies de l'annulation de l'ajout de la clé  Pour cela le code utilise des modes d'opération de chiffrement, en particulier le mode CBC (chiffrement en mode chaîné), pour renforcer la sécurité du chiffrement et vérifie son fonctionnement . 
+
+> [!TIP]
+> Pour utiliser le programme:
+> ```bash
+> python3 chiffrement_bloc_toycipher_cbc.py
+> ````
+
+
+
+
 ## [ENGLISH PRESENTATION]
 Security project based on several encryption methods.
 
@@ -71,8 +85,6 @@ The program implements RSA encryption, an asymmetric cryptography system. This s
 > ````
 
 
-
-
 ### Part 2: Affine Encryption-Decryption
 This part implements an affine encryption system, where each letter of a message is transformed individually using a modular affine function. The letters of the alphabet are represented by the numbers 0 to 29 (because it is an alphabet of length 29, including spaces, a comma and a period in the alphabet there is " " , ".", " , ").
 The encryption function is of the form fa,b(x) = ax + b mod 29, where a and b are integers and x is the index of the letter in the alphabet. For example, with a = 3 and b = 11, the letter A is transformed into the letter L. The encryption function is bijective when a is prime with 29, allowing decryption.
@@ -89,6 +101,18 @@ The program includes the following steps:
 > ```bash
 > python3 prog_encryption_decryption_affine.py
 > ````
+
+
+### Part 3: Block Encryption-Decryption with ToyCipher and CBC
+
+Implementation of a two-round block encryption called ToyCipher with an 8-bit key and a block size of 4 bits. It includes functions for data encryption and decryption, as well as file operations. Encryption is done in two rounds of operations on the data. Each round involves adding the corresponding key to the data state, followed by a permutation. Decryption, on the other hand, reverses this process by performing the rounds in reverse order, starting with the inverse permutation operations, followed by canceling out the key addition. The code utilizes encryption operation modes, particularly CBC mode (Cipher Block Chaining), to enhance encryption security and verifies its functionality.
+
+> [!TIP]
+> To use the program :
+> ```bash
+> python3 chiffrement_bloc_toycipher_cbc.py
+> ````
+
 
 ## [Tutoriel / Tutorial]
 
@@ -114,4 +138,12 @@ The program includes the following steps:
 [ENGLISH] Finally the key information is displayed with the encrypted phrase and the decrypted phrase.   
 <div align="center">
   <img width="391" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Cipher_Decipher/assets/151149998/8bad188b-ce51-4478-a93e-c5de87356e2e">
+</div>
+
+#### ÉTAPE 3 : Dans la partie 3 Bloc lancer le programme   / STEP 2: In part 2 Bloc after launch the program
+[FRENCH] Le code utilise un fichier texte pour effectuer d'abord un chiffrement par bloc avec ToyCipher. Ensuite, il affiche la clé utilisée. Enfin, il montre le contenu du fichier chiffré, ainsi que les étapes d'encodage et de décodage  
+[FRENCH] The code uses a text file to first perform block encryption with ToyCipher. Then, it displays the key used. Finally, it shows the content of the encrypted file, as well as the encoding and decoding steps.
+
+<div align="center">
+  <img width="615" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Cipher_Decipher/assets/151149998/6b4d243a-3431-4481-9e83-7252e5c39ad9">
 </div>
