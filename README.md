@@ -1,5 +1,5 @@
 # Security-Projet_RSA_Affine_Bloc_CBC_Cipher_Decipher
-[French] Projet de Chiffrement-Déchiffrement RSA et Affine et bloc CBC
+[French] Projet de Chiffrement-Déchiffrement RSA et Affine et bloc CBC  
 [English] RSA, Affine, Bloc CBC Encryption-Decryption Project  (First it will be the French README then the English README After)   
 
 
@@ -22,6 +22,13 @@ Le programme met en œuvre le chiffrement RSA, un système de cryptographie asym
 - Génération des clés publiques et privées.
 - Chiffrement d'un message avec la clé publique.
 - Déchiffrement d'un message avec la clé privée.
+
+> [!NOTE]
+> Pour installer la bibliothèque `Crypto`:
+> ```bash
+> pip install pycryptodome
+> ````
+
 
 > [!TIP]
 > Pour utiliser le programme:
@@ -78,6 +85,12 @@ The program implements RSA encryption, an asymmetric cryptography system. This s
 - Encryption of a message with the public key.
 - Decryption of a message with the private key.
 
+> [!NOTE]
+> To install the library `Crypto`:
+> ```bash
+> pip install pycryptodome
+> ````
+
 > [!TIP]
 > To use the program:
 > ```bash
@@ -117,9 +130,33 @@ Implementation of a two-round block encryption called ToyCipher with an 8-bit ke
 ## [Tutoriel / Tutorial]
 
 #### ÉTAPE 1 : Dans la partie 1  RSA lancer le programme  / STEP 1: In part 1 RSA launch the program
+[FRENCH] Le programme affiche d'abord un ensemble d'informations liées à la clé publique et privée.  
+[ENGLISH] The program first displays a set of information related to the public and private key.   
 <div align="center">
-  <img width="267" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Cipher_Decipher/assets/151149998/da6affdc-15cd-42ae-b13d-22376a908413">
+  <img width="294" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Bloc_CBC_Cipher_Decipher/assets/151149998/1c913524-ab24-4906-a346-88890b0a1268">
+  
 </div>
+
+[FRENCH] Ensuite, le programme présente un exemple de chiffrement/déchiffrement  
+[ENGLISH] Next, the program demonstrates an example of encryption/decryption  
+<div align="center">
+  <img width="315" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Bloc_CBC_Cipher_Decipher/assets/151149998/42bdee12-ec2c-4eaa-986b-fe096f170708">
+</div>
+
+
+[FRENCH] Une phrase est alors chiffrée puis déchiffrée  
+[ENGLISH] A phrase is then encrypted and decrypted  
+<div align="center">
+  <img width="315" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Bloc_CBC_Cipher_Decipher/assets/151149998/b013788e-c05f-43dd-8dbf-8c661f8c6669">
+</div>
+
+[FRENCH] Enfin, il est possible de voir le chiffrement RSA appliqué à une conversation entre deux personnes       
+[ENGLISH] Finally, it is possible to see RSA encryption applied to a conversation between two people    
+<div align="center">
+<img width="435" alt="image" src="https://github.com/D-TheProgrammer/Security-Projet_RSA_Affine_Bloc_CBC_Cipher_Decipher/assets/151149998/44c23214-adcc-4730-a474-11f6073bd133">
+</div>
+
+
 
 #### ÉTAPE 2 : Dans la partie 2 Affine lancer le programme   / STEP 2: In part 2 Affine after launch the program
 [FRENCH] L'utilisateur pourra choisir la clé privé et publique ( la clé privé ne peut etre le chiffre 0)   
